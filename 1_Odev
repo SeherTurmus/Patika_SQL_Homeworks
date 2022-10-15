@@ -1,0 +1,5 @@
+SELECT title, description FROM film;
+SELECT * FROM film WHERE length between 60 AND 75;
+SELECT * FROM film WHERE rental_rate IN(0.99, 12.99, 28.99);
+SELECT last_name FROM film WHERE first_name = "Mary";
+SELECT * FROM film WHERE rental_rate <= 50 AND NOT IN(2.99, 4.99);
