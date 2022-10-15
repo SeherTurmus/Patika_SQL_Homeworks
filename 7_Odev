@@ -1,0 +1,4 @@
+SELECT * FROM film GROUP BY rating;
+SELECFT * FROM film GROUP BY replacement_cost HAVING COUNT(*) > 50;
+SELECT * FROM customer GROUP BY store_id;
+SELECT * FROM city GROUP BY country_id ORDER BY COUNT(*) DESC LIMIT 1;
